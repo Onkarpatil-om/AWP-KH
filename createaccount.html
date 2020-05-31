@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>create account</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{background-color:pink;
+	}
+h1{font-size:70px;text-align:center; color:orange;}
+.omi{
+	  width:800px;
+	  height:700px;
+	  position:center;
+	  box-sizing:border-box;
+	  color:black;
+	  padding:15px;
+	  margin-left:30%;
+	  border-radius:20px;
+	  font-size:20px;
+	  text-shadow:1px 1px black;
+	  background-color:tomato;
+	  }
+.omi input{border-radius:10px;padding:5px;}
+.omi input[type="text"],input[type="password"],input[type="email"]{
+		color:black;
+		font-size:20px;
+		background:white;
+		}
+.omi input[type="submit"]{padding:10px;font-size:20px;margin-left:30px;background-color:yellow;color:blue;}
+.omi input[type="submit"]:hover{cursor:pointer;
+				background-color:red;}		
+</style>
+<script type="text/javascript">
+function display()
+{
+	window.alert("Thank You for Becoming part of  TWIN TOWER Family")
+}
+</script>
+</head>
+<body>
+<h1>Create An Account</h1>
+<div class="omi">
+<form action="Login.html">
+ First Name: <input type="text" placeholder="first-name"><br><br>
+ Middle Name: <input type="text" placeholder="middle-name"><br><br>
+ Last Name: <input type="text" placeholder="last-name"><br><br>
+ Gender: <input type="radio" name="n1">Male
+		  <input type="radio" name="n1">Female<br><br>
+ City: <input type="text" placeholder="city"> &nbsp &nbsp &nbsp
+ Country: <input type="text" placeholder="country"><br><br>
+ Date of Birth: <input type="date" placeholder="DOB"><br><br>
+ Mobile Number: <input type="text" placeholder="mob-no"><br><br>
+ Mail-Id: <input type="email" placeholder="mail-id"><br><br>
+ UserName: <input type="text" placeholder="Enter UserName"><br><br>
+ Password: <input type="password" placeholder="passsword"> &nbsp &nbsp &nbsp
+ Confirm Password:<input type="password" placeholder="passsword"><br><br>
+ <input type="checkbox"><a href="#">I agree the Terms of Service and Privacy Policy</a><br><br>
+ <input type="submit" value="Register" onclick="display()">
+ 
+</div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>create account</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{background-color:tomato;background-size:cover;}
+h1{font-size:50px;text-align:center; color:orange;}
+.omi{
+	  width:1000px;
+	  height:500px;
+	  position:center;
+	  box-sizing:border-box;
+	  color:yellow;
+	  text-shadow:1px 1px red;
+	  margin-left:120px;
+	  padding:20px;
+	  margin-top:60px;
+	  font-size:30px;
+	  background-color:#adf;
+	  border-radius:30px;
+	  }
+.omi input{border:none;outline:none;font-size:20px;background:none;border-bottom:1px dotted;}
+.omi input[type="text"],input[type="password"],input{type="email"}{
+		color:orange;
+		background:white;
+		border-radius:10px;
+		}	  
+.omi input[type="submit"]{border-radius:20px; margin-left:30px;font-size:30px;color:yellow;background-color:gray;padding:10px;}
+.omi input[type="submit"]:hover{cursor:pointer; background-color:orange;}
+</style>
+<script type="text/javascript">
+function display()
+{
+	window.alert("Password Is Reset Successfully")
+}
+</script>
+</head>
+<body>
+<h1>Reset Password</h1>
+<div class="omi">
+<form action="Login.html">
+ Mobile Number: <input type="text" name="n1"placeholder="mob-no"><br><br>
+ Mail-Id: <input type="email" name="n2"placeholder="Mail-id"><br><br>
+ UserName: <input type="text" name="n3"placeholder="Enter UserName"><br><br>
+ Password: <input type="password" name="n4"placeholder="Enter passsword"> &nbsp; &nbsp;
+ Confirm Password: <input type="password" name="n5"placeholder="Re-Enter passsword"><br><br>
+ <input type="radio" name="n1">Password  send to mail<br><br>
+  <input type="radio" name="n1">Password send to mob-no<br><br>
+ <input type="submit" value="Submit" onclick="display()">
+ </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,102 @@
+*
+{
+	padding:0px;
+	margin:0px;
+}
+body{background-color:black;}
+.home{background-image:url(Image/animal.jpg);
+		width:100%;
+		height:700px;
+		background-attachment:scroll;
+	}
+.navbar
+{
+	background:#594848;
+	width:100%;
+	height:60px;
+	color:#fff;
+
+}
+.user
+{
+	width: 120px;
+    height: 120%;
+    border-radius: 50%;
+	float:left;
+	margin-left:50px;
+}
+.navbar ul
+{
+	margin:0;
+	padding:0px;
+	list-style:none;
+	float :right;
+	line-height:60px;
+		
+}
+.navbar ul li
+{
+	display:inline-block;
+	position:relative;
+	
+}
+.navbar ul li a
+
+{
+	color:#fff;
+	text-decoration:none;
+	padding:25px;
+	font-size:18px;
+	font-family:courier;
+	
+	
+}
+.navbar ul li a:hover
+{
+	color:#fff;
+	background-color:tomato;
+	border-radius:5px;
+	position:relative;
+}
+.active{background-color:tomato;}
+.navbar ul ul{display:none;
+				position:absolute;
+			}
+.navbar ul li:hover > ul{display:block;}
+.qot{height:400px;
+	width:100%;
+	margin-top:10px;
+	background-color:#ff7;
+	}
+.search{width:300px;
+		height:190px;
+		float:right;
+		padding:50px;
+		background-color:tomato;
+		margin:30px 100px 0px 0px;
+		border-radius:20px;
+		}
+h2{font-size:30px;text-align:center;}		
+h3{color:orange;font-size:25px;text-shadow:1px 2px red;}
+.search input[type="text"]{padding:10px;width:70%;font-size:17px;border-radius:20px;text-align:center;}
+.search input[type="submit"]{padding:10px;width:40%;border-radius:20px;font-size:15px;background-color:purple;}
+.search input[type="submit"]:hover{background-color:yellow;}
+img{margin:30px 0px 0px 200px;border-radius:50px;}
+.footer
+{
+	width:100%;
+	height:300px;
+	background-color:black;
+}
+/*.left{float:left;padding:20px;}
+ .right{float:right;}*/
+ .footer ul{float:left;padding:50px;margin-left:100px;list-style-type:none;color:tomato;font-size:25px;}
+ .footer ul li{padding:5px;}
+ ul li a{color:white;}
+ .design{width:100%;
+		height:auto;
+		background-color:yellow;
+		padding:5px;
+		font-size:20px;
+		text-align:center;
+		}
